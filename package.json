@@ -2,6 +2,7 @@
   "name": "repl-alliance",
   "version": "1.0.0",
   "description": "A repl for ethereum contracts.",
+  "repository": "github:BinaryCannon/repl-alliance",
   "main": "./src/repl-alliance.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +10,8 @@
   "bin": {
     "repl-alliance": "./bin/run-repl.js"
   },
-  "author": "Adam Iley",
-  "license": "ISC",
+  "author": "Adam Iley <adam@binarycannon.com>",
+  "license": "MIT",
   "dependencies": {
     "ethjs": "^0.3.3",
     "minimist": "^1.2.0"
